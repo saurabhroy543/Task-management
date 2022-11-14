@@ -1,0 +1,16 @@
+ADMIN = 'ADMIN'
+LEADER = 'LEADER'
+MEMBER = 'MEMBER'
+
+
+ROLES_CHOICES = [
+    (ADMIN, 'ADMIN'),
+    (LEADER, 'LEADER'),
+    (MEMBER, 'MEMBER'),
+]
+
+ROLES = {
+    "ADMIN": "ADMIN",
+    'LEADER': 'LEADER',
+    'MEMBER': 'MEMBER'
+}
